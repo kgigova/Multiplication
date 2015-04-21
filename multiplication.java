@@ -9,6 +9,7 @@ public class Multiplication {
 
 	/** * @param args the command line arguments */
 	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
 		System.out.println("N:");
 		int N = scan.nextInt();
 		if (N > 0 && N < 3200000) {
